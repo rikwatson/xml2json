@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/rikwatson/xml2json/issues"
   },
-  "homepage": "https://github.com/rikwatson/xml2json#readme"
+  "homepage": "https://github.com/rikwatson/xml2json#readme",
+  "dependencies": {
+    "xmldom": "^0.1.27"
+  }
 }
