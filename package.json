@@ -1,0 +1,24 @@
+{
+  "name": "xml2json",
+  "version": "1.0.0",
+  "description": "CLI tool to convert XML to JSON",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rikwatson/xml2json.git"
+  },
+  "keywords": [
+    "XML",
+    "JSON",
+    "CLI"
+  ],
+  "author": "Rik Watson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rikwatson/xml2json/issues"
+  },
+  "homepage": "https://github.com/rikwatson/xml2json#readme"
+}
