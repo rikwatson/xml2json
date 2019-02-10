@@ -1,0 +1,75 @@
+<?xml version="1.0" ?>
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <variables/>
+  <block id="ObC;}lVi9$t*}y0^!N;W" type="ui_layout_old" x="30" y="10">
+    <statement name="DATAITEMS">
+      <block id="DEDBEEF" type="ui_dataitem">
+        <field name="DataSource">DataSource</field>
+        <field name="Value">Value</field>
+        <field name="OnlyIfEmpty">FALSE</field>
+      </block>
+    </statement>
+    <statement name="ELEMENTS">
+      <block id="B=%,,=U1pM@0BR^3ls9c" type="ui_element_label">
+        <field name="Text">Text</field>
+        <field name="Size">Large</field>
+        <field name="Bold">FALSE</field>
+        <next>
+          <block id="UO:)XvCvOvO+ha@DmH7o" type="ui_element_text">
+            <field name="DataSource">DataSource</field>
+            <field name="Label">Label</field>
+            <field name="IsMultiLine">FALSE</field>
+            <next>
+              <block id="MOREBEEF" type="ui_element_signature">
+                <field name="DataSource">DataSource</field>
+                <field name="Label">Label</field>
+                <next>
+                  <block id="D(Hv8;%$~e}{3potgg+q" type="ui_element_text">
+                    <field name="DataSource">DataSource</field>
+                    <field name="Label">Label</field>
+                    <field name="IsMultiLine">FALSE</field>
+                    <next>
+                      <block id="Td$}Z#}s3fy6EgigGLRD" type="ui_element_flow">
+                        <field name="DataSource">DataSource</field>
+                        <field name="Value">Value</field>
+                        <statement name="ELEMENTS">
+                          <block id="__BDG" type="ui_element_signature">
+                            <field name="DataSource">DataSource</field>
+                            <field name="Label">Label</field>
+                          </block>
+                        </statement>
+                        <next>
+                          <block id="JDYDHD" type="ui_element_comboselector">
+                            <field name="DataSource">DataSource</field>
+                            <field name="Label">Label</field>
+                            <field name="Options">Options</field>
+                            <statement name="OPTIONS">
+                              <block id="4g(M3)Gnt]m3^@0a$37." type="ui_option">
+                                <field name="Label">Label</field>
+                                <field name="Background">#ff0000</field>
+                              </block>
+                            </statement>
+                            <next>
+                              <block id="t,H+yAj5$8qZg(zu#A*8" type="ui_element_booleanselector">
+                                <field name="DataSource">DataSource</field>
+                                <field name="Label">Label</field>
+                                <field name="True">True</field>
+                                <field name="TRUE_COLOUR">#009900</field>
+                                <field name="False">False</field>
+                                <field name="FALSE_COLOUR">#6666cc</field>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+</xml>
