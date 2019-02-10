@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "CLI tool to convert XML to JSON",
   "main": "index.js",
+  "bin": {
+    "xml2json": "./index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
