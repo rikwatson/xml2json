@@ -13,11 +13,19 @@ const xmlToJson = function(xml){
   return XMLObjectifier.xmlToJSON(xml) //Converts xml dom object to JSON
 }
 
-process.stdin.resume()
-process.stdin.setEncoding('utf8')
+let data = ""
 
-process.stdin.on('data', function(data){
+process.stdin.setEncoding('utf8');
 
+process.stdin.on('readable', () => {
+  let chunk
+
+  // Use a loop to make sure we read all available data.
+  while ((chunk = process.stdin.read()) !== null) {
+    data += chunk;
+  }
+})
+
+process.stdin.on('end', () => {
   process.stdout.write(JSON.stringify(xmlToJson(data), null, 2))
-
 })
