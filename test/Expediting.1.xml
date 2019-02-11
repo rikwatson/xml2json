@@ -1,0 +1,1061 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <variables>
+    <variable type="" id="0bp/d*m#4M:(aKXl4:S5">json</variable>
+    <variable type="" id="i?WJS`2l}4tQZ^sKldKA">Status</variable>
+    <variable type="" id="kNzF7[:`9ynZQV7Eff1/">InspectionDate</variable>
+    <variable type="" id=";t+81n_~};ZFh$iBDs$!">Supplier</variable>
+    <variable type="" id="b(@{+e[+TDNh|akekISQ">Region</variable>
+    <variable type="" id="D7dB=t@yk}ZCcIy]P@ud">InspectorName</variable>
+    <variable type="" id="c03@JXxx~/U.BNFB|84b">InspectionNumber</variable>
+    <variable type="" id="WW`{5]0TP05c-TZ$b1)3">InspectorFirstName</variable>
+    <variable type="" id="-3RDI9*9As;QU.sTx4x5">inspectorLastName</variable>
+    <variable type="" id="cp|Ap+9I[qpPf_Vuh$oP">ClientID</variable>
+    <variable type="" id="0Q]/eW`56;[5=~NzRi|b">ClientName</variable>
+    <variable type="" id="I%xcnNfzZ4^4%wl`Vzml">NCRS</variable>
+    <variable type="" id="].;6r9q.pgxiltKA@hnN">GUID</variable>
+    <variable type="" id="(Ad96t{.1ccAKAU$a4f~">ExpeditingDate</variable>
+    <variable type="" id="JZ2vtVwkF;j``$z$P74{">TSName</variable>
+    <variable type="" id="up%yM/2G@LO-62;-+.VA">TSPin</variable>
+    <variable type="" id="b*Ljoq?Y_(h_P9{@b5P6">TSEntity</variable>
+    <variable type="" id="Kp_US![qmIf$f7q`hm?[">OperatingProjectCoordinator</variable>
+    <variable type="" id="aDPSoa;=i2(H2FQ31=YS">ExpeditingPerformed</variable>
+    <variable type="" id=".p!r(2LZZBDQn%IrVd!r">MaterialsInspected</variable>
+    <variable type="" id="[W8N,cBaU3^GJ4SCU[-Z">CustomerName</variable>
+    <variable type="" id="8G]ltaFOTI!!hyx+ct[r">EVONumber</variable>
+    <variable type="" id="Pv.TNwW=QtXR;b6:[XJ/">IntertekProjectNumber</variable>
+    <variable type="" id=",1p|Tq59=(]@9kos/vlG">ExpeditingDeliveryStatus</variable>
+    <variable type="" id="BG]H/y9]S@B5^4O7c,jY">ExpeditingDeliveryStatusReason</variable>
+    <variable type="" id="s{+9N6ML_@#U4Aw4?`Xy">ExpeditingShippingStatus</variable>
+    <variable type="" id="P:FdhUv?fKL0fIV5dj]I">ExpeditingShippingStatusReason</variable>
+    <variable type="" id="9_6V(RF_+@3[yZ7zy1(K">ExpeditingEngineeringStatus</variable>
+    <variable type="" id="J@TT}E?(Cyd^kJ}GARa_">ExpeditingEngineeringStatusReason</variable>
+    <variable type="" id="hd#)%jYs{ejj.}gBUfy^">ExpeditingDocumentStatus</variable>
+    <variable type="" id="Sp5YDYo*x{UPcLqMVg.Y">ExpeditingDocumentStatusReason</variable>
+    <variable type="" id="Oehc,pp(yFgR%`*Jf8Rd">ExpeditingMaterialsReceived</variable>
+    <variable type="" id="qdc8yrN+}B3+$TzzuqI_">ExpeditingMaterialsReceivedReason</variable>
+    <variable type="" id="#jLnYK#0_N=6ggB]4wgC">ExpeditingTestingStatus</variable>
+    <variable type="" id="^)_/,DX6)iK.NQi.PAg{">ExpeditingTestingStatusReason</variable>
+    <variable type="" id="kp[46u(NJyb!=pyUk),$">ExpeditingCoatingStatus</variable>
+    <variable type="" id="!=64*u*V8~j)q_x2GD/*">ExpeditingCoatingStatusReason</variable>
+    <variable type="" id="_z]~`EJUt1l-TOreTb#V">ExpeditingPackingStatus</variable>
+    <variable type="" id="g/+L$l8aDTHCL!e9+BC%">ExpeditingPackingStatusReason</variable>
+    <variable type="" id="VbH|3*FyTQ9N{d-P$M)m">ExpeditingOtherStatus</variable>
+    <variable type="" id="Fy,#G$c!t,bRbawUvc4-">ExpeditingOtherStatusReason</variable>
+    <variable type="" id="7w/J!PREo{pdREq^$xEF">SupplierName</variable>
+    <variable type="" id="[?iIE,mkHZ7:GZhn={-!">SubSupplierName</variable>
+    <variable type="" id="R?klSq3onwwU!ARH0[;c">OperatingProjectCoodinator</variable>
+    <variable type="" id="}F,vU#oFv9cnLPz=Vt=[">ExpeditingOrderedQty</variable>
+    <variable type="" id="B.K0__gHp;Yo(.bflwK:">ExpeditingPresentedQty</variable>
+    <variable type="" id="B@Y(HZL[eWeZObf529O$">ExpeditingVisitAcceptedQty</variable>
+    <variable type="" id="%X~)n8Y6YA%4`5NE$L`!">ExpeditingAcceptedtoDateQty</variable>
+  </variables>
+  <block type="bi_top_level_block_v1" id="~IU|Ys1*kikhw[,68Y`c" deletable="false" movable="false" x="10" y="10">
+    <statement name="NAME">
+      <block type="ui_comment_block_1" id="(X:{/TkIUBRS.QtHk6i2">
+        <field name="COMMENT_BLOCK">Expediting Report</field>
+        <next>
+          <block type="ui_comment_block_2" id="?S{YuKPs?nkK51ZM|3{,">
+            <field name="COMMENT_BLOCK">Declare json and GUID Variables</field>
+            <statement name="ELEMENTS">
+              <block type="variables_set" id="{}V;99a!(pOvzup[eMvp">
+                <field name="VAR" id="0bp/d*m#4M:(aKXl4:S5" variabletype="">json</field>
+                <value name="VALUE">
+                  <block type="json_v1" id="fY6u@jTUOU]-:~n.#II:">
+                  </block>
+                </value>
+                <next>
+                  <block type="variables_set" id="Ku5J#0+}k/I,+IWS~MSV">
+                    <field name="VAR" id="].;6r9q.pgxiltKA@hnN" variabletype="">GUID</field>
+                    <value name="VALUE">
+                      <block type="guid_v1" id="WlL$!7$]gkPjYUC%=4[0">
+                      </block>
+                    </value>
+                  </block>
+                </next>
+              </block>
+            </statement>
+            <next>
+              <block type="ui_comment_block_2" id="p*E%o,ZUNTDNYXUhtO.l">
+                <field name="COMMENT_BLOCK">Declare Expediting Report Field Specific Variables</field>
+                <statement name="ELEMENTS">
+                  <block type="variables_set" id="sjU#CIA5nq9iG$;]IyYt">
+                    <field name="VAR" id="(Ad96t{.1ccAKAU$a4f~" variabletype="">ExpeditingDate</field>
+                    <value name="VALUE">
+                      <block type="get_json_value_from_input_v1" id="5Q%*8c**R,I^@,OZo$Du">
+                        <field name="NAME">Visit.Current.Report.VisitDate</field>
+                        <value name="NAME">
+                          <block type="variables_get" id="xBYRG]0vnyR*ahjvNJys">
+                            <field name="VAR" id="0bp/d*m#4M:(aKXl4:S5" variabletype="">json</field>
+                          </block>
+                        </value>
+                      </block>
+                    </value>
+                    <next>
+                      <block type="variables_set" id="/Sk_r5ol~9WT`5=+X4*e">
+                        <field name="VAR" id="JZ2vtVwkF;j``$z$P74{" variabletype="">TSName</field>
+                        <value name="VALUE">
+                          <block type="string_concat_v1" id="jp?;CIR0tImi~][-6Lzw">
+                            <value name="LHS">
+                              <block type="get_json_value_from_input_v1" id="HS[t(PB4$UGv:*3%|@Y3">
+                                <field name="NAME">TechnicalSpecialist.FirstName</field>
+                                <value name="NAME">
+                                  <block type="variables_get" id="h3=;)JPp=xECd3yfMz:,">
+                                    <field name="VAR" id="0bp/d*m#4M:(aKXl4:S5" variabletype="">json</field>
+                                  </block>
+                                </value>
+                              </block>
+                            </value>
+                            <value name="RHS">
+                              <block type="string_concat_v1" id="/cG7*F;F^smI%1%xB;Ek">
+                                <value name="LHS">
+                                  <block type="text" id="T#V.rW(kj?N):4}aAvIl">
+                                    <field name="TEXT">_</field>
+                                  </block>
+                                </value>
+                                <value name="RHS">
+                                  <block type="get_json_value_from_input_v1" id=")If`DOPksg@=mX$D(!,D">
+                                    <field name="NAME">TechnicalSpecialist.LastName</field>
+                                    <value name="NAME">
+                                      <block type="variables_get" id="E)g{8`(Q=~@lFY;nF8%Q">
+                                        <field name="VAR" id="0bp/d*m#4M:(aKXl4:S5" variabletype="">json</field>
+                                      </block>
+                                    </value>
+                                  </block>
+                                </value>
+                              </block>
+                            </value>
+                          </block>
+                        </value>
+                        <next>
+                          <block type="variables_set" id="3SR!.=8PgGB:,x9e){SJ">
+                            <field name="VAR" id="up%yM/2G@LO-62;-+.VA" variabletype="">TSPin</field>
+                            <value name="VALUE">
+                              <block type="get_json_value_from_input_v1" id="2[;3Pc:=-:=zo$;g|?ro">
+                                <field name="NAME">TSPin</field>
+                                <value name="NAME">
+                                  <block type="variables_get" id=",=3:*ATp3=!:k_T7GH^@">
+                                    <field name="VAR" id="0bp/d*m#4M:(aKXl4:S5" variabletype="">json</field>
+                                  </block>
+                                </value>
+                              </block>
+                            </value>
+                            <next>
+                              <block type="variables_set" id="f0_y:VqXa9gC2E2kL6bo">
+                                <field name="VAR" id="b*Ljoq?Y_(h_P9{@b5P6" variabletype="">TSEntity</field>
+                                <value name="VALUE">
+                                  <block type="get_json_value_from_input_v1" id="/XohM=e14Q]*I+Q2a@Ex">
+                                    <field name="NAME">TSEntity</field>
+                                    <value name="NAME">
+                                      <block type="variables_get" id="+HuEsYEnvF:;ATnkS!(H">
+                                        <field name="VAR" id="0bp/d*m#4M:(aKXl4:S5" variabletype="">json</field>
+                                      </block>
+                                    </value>
+                                  </block>
+                                </value>
+                                <next>
+                                  <block type="variables_set" id="U`t+g/A6?UPkJY3btZ%{">
+                                    <field name="VAR" id="Kp_US![qmIf$f7q`hm?[" variabletype="">OperatingProjectCoordinator</field>
+                                    <value name="VALUE">
+                                      <block type="get_json_value_from_input_v1" id="dRmepRKLH*S)4G/K@$DR">
+                                        <field name="NAME">Intertek.Contract.Project.Coordinator</field>
+                                        <value name="NAME">
+                                          <block type="variables_get" id="~wUP=Xx^+KzdHdnVhOu5">
+                                            <field name="VAR" id="0bp/d*m#4M:(aKXl4:S5" variabletype="">json</field>
+                                          </block>
+                                        </value>
+                                      </block>
+                                    </value>
+                                    <next>
+                                      <block type="variables_set" id="C!v%MSI+J?;vXAL`|0$T">
+                                        <field name="VAR" id="aDPSoa;=i2(H2FQ31=YS" variabletype="">ExpeditingPerformed</field>
+                                        <value name="VALUE">
+                                          <block type="get_json_value_from_input_v1" id="t9}PYFvZZkZOL1K*b@vo">
+                                            <field name="NAME">Supplier.InspectionPerformed</field>
+                                            <value name="NAME">
+                                              <block type="variables_get" id="VdaJQ^hd`#z=Y8o%k~AV">
+                                                <field name="VAR" id="0bp/d*m#4M:(aKXl4:S5" variabletype="">json</field>
+                                              </block>
+                                            </value>
+                                          </block>
+                                        </value>
+                                        <next>
+                                          <block type="variables_set" id="C[)O+}O$C-R$gkUD)=9!">
+                                            <field name="VAR" id=".p!r(2LZZBDQn%IrVd!r" variabletype="">MaterialsInspected</field>
+                                            <value name="VALUE">
+                                              <block type="get_json_value_from_input_v1" id="DWD43dY?)+wMv-bm-RFR">
+                                                <field name="NAME">Client.Materials</field>
+                                                <value name="NAME">
+                                                  <block type="variables_get" id="8?nsKx_Uj9;HpjGk}LA]">
+                                                    <field name="VAR" id="0bp/d*m#4M:(aKXl4:S5" variabletype="">json</field>
+                                                  </block>
+                                                </value>
+                                              </block>
+                                            </value>
+                                            <next>
+                                              <block type="variables_set" id="ikE-wmSZgYT^Ly9A968E">
+                                                <field name="VAR" id="[W8N,cBaU3^GJ4SCU[-Z" variabletype="">CustomerName</field>
+                                                <value name="VALUE">
+                                                  <block type="get_json_value_from_input_v1" id="E#yld#t#-@42ilzeS=*8">
+                                                    <field name="NAME">Customer.Address</field>
+                                                    <value name="NAME">
+                                                      <block type="variables_get" id="Ek#GHA{*jWo/`aga;V8P">
+                                                        <field name="VAR" id="0bp/d*m#4M:(aKXl4:S5" variabletype="">json</field>
+                                                      </block>
+                                                    </value>
+                                                  </block>
+                                                </value>
+                                                <next>
+                                                  <block type="variables_set" id="{qUlGS_RPox3Y[4?0%M;">
+                                                    <field name="VAR" id="8G]ltaFOTI!!hyx+ct[r" variabletype="">EVONumber</field>
+                                                    <value name="VALUE">
+                                                      <block type="string_concat_v1" id="8H^NSSAkdmNcLt2WS=Yw">
+                                                        <value name="LHS">
+                                                          <block type="get_json_value_from_input_v1" id="mYJKdoIdKhis:76kb_$E">
+                                                            <field name="NAME">Intertek.ProjectNumber</field>
+                                                            <value name="NAME">
+                                                              <block type="variables_get" id="V3XM5Y`?OVH/V*KghH=u">
+                                                                <field name="VAR" id="0bp/d*m#4M:(aKXl4:S5" variabletype="">json</field>
+                                                              </block>
+                                                            </value>
+                                                          </block>
+                                                        </value>
+                                                        <value name="RHS">
+                                                          <block type="string_concat_v1" id="SE*3;ru|6=;`x#.4)sH2">
+                                                            <value name="LHS">
+                                                              <block type="text" id="55Q0/ht;2B)y+D;w;EwU">
+                                                                <field name="TEXT">-</field>
+                                                              </block>
+                                                            </value>
+                                                            <value name="RHS">
+                                                              <block type="get_json_value_from_input_v1" id="w7mjY2knrO_X97@]#l0m">
+                                                                <field name="NAME">Assignment.Number</field>
+                                                                <value name="NAME">
+                                                                  <block type="variables_get" id="F*sY~zMNO54S6u7q2u!(">
+                                                                    <field name="VAR" id="0bp/d*m#4M:(aKXl4:S5" variabletype="">json</field>
+                                                                  </block>
+                                                                </value>
+                                                              </block>
+                                                            </value>
+                                                          </block>
+                                                        </value>
+                                                      </block>
+                                                    </value>
+                                                    <next>
+                                                      <block type="variables_set" id="/zz$r}ND$qBxXJEWOgfu">
+                                                        <field name="VAR" id="Pv.TNwW=QtXR;b6:[XJ/" variabletype="">IntertekProjectNumber</field>
+                                                        <value name="VALUE">
+                                                          <block type="get_json_value_from_input_v1" id=",jy%~4Xr%JPIG[JMBNcy">
+                                                            <field name="NAME">Intertek.ProjectNumber</field>
+                                                            <value name="NAME">
+                                                              <block type="variables_get" id=".[m$DFqw]W~!JY_Vb=}g">
+                                                                <field name="VAR" id="0bp/d*m#4M:(aKXl4:S5" variabletype="">json</field>
+                                                              </block>
+                                                            </value>
+                                                          </block>
+                                                        </value>
+                                                        <next>
+                                                          <block type="variables_set" id="89fx!eZ*/MF=n6p,3dRI">
+                                                            <field name="VAR" id=",1p|Tq59=(]@9kos/vlG" variabletype="">ExpeditingDeliveryStatus</field>
+                                                            <value name="VALUE">
+                                                              <block type="get_json_value_from_input_v1" id="Do;*Qi1|6]0h|RxfIIh2">
+                                                                <field name="NAME">Expediting.DeliveryStatus</field>
+                                                                <value name="NAME">
+                                                                  <block type="variables_get" id="jR09.O5?.^j{wYI%TEj^">
+                                                                    <field name="VAR" id="0bp/d*m#4M:(aKXl4:S5" variabletype="">json</field>
+                                                                  </block>
+                                                                </value>
+                                                              </block>
+                                                            </value>
+                                                            <next>
+                                                              <block type="variables_set" id="+z[vj/K]S2+d97W3{%kC">
+                                                                <field name="VAR" id="BG]H/y9]S@B5^4O7c,jY" variabletype="">ExpeditingDeliveryStatusReason</field>
+                                                                <value name="VALUE">
+                                                                  <block type="get_json_value_from_input_v1" id="j=jKIbDWPW66I,B66sh2">
+                                                                    <field name="NAME">ExpeditingDeliveryStatusReason</field>
+                                                                    <value name="NAME">
+                                                                      <block type="variables_get" id="3IA/@KY=+;Pz0T+-Cx~;">
+                                                                        <field name="VAR" id="0bp/d*m#4M:(aKXl4:S5" variabletype="">json</field>
+                                                                      </block>
+                                                                    </value>
+                                                                  </block>
+                                                                </value>
+                                                                <next>
+                                                                  <block type="variables_set" id="aym%=fHze564b~ocG5cS">
+                                                                    <field name="VAR" id="s{+9N6ML_@#U4Aw4?`Xy" variabletype="">ExpeditingShippingStatus</field>
+                                                                    <value name="VALUE">
+                                                                      <block type="get_json_value_from_input_v1" id="bSQhZ6~NcmpT/9!R,9tB">
+                                                                        <field name="NAME">Expediting.ShippingStatus</field>
+                                                                        <value name="NAME">
+                                                                          <block type="variables_get" id="~`Qx}X#k:n1JRs}wC#+c">
+                                                                            <field name="VAR" id="0bp/d*m#4M:(aKXl4:S5" variabletype="">json</field>
+                                                                          </block>
+                                                                        </value>
+                                                                      </block>
+                                                                    </value>
+                                                                    <next>
+                                                                      <block type="variables_set" id="e?zil$x-Da8$TGh(~=@f">
+                                                                        <field name="VAR" id="P:FdhUv?fKL0fIV5dj]I" variabletype="">ExpeditingShippingStatusReason</field>
+                                                                        <value name="VALUE">
+                                                                          <block type="get_json_value_from_input_v1" id="Q,a:NsVXRGsq|{.E}cNU">
+                                                                            <field name="NAME">Expediting.ShippingStatus.Reason</field>
+                                                                            <value name="NAME">
+                                                                              <block type="variables_get" id="RH:gtL`-!h.T}vMHr/a5">
+                                                                                <field name="VAR" id="0bp/d*m#4M:(aKXl4:S5" variabletype="">json</field>
+                                                                              </block>
+                                                                            </value>
+                                                                          </block>
+                                                                        </value>
+                                                                        <next>
+                                                                          <block type="variables_set" id="{q]7a=Ca90/6Kd~G+XVk">
+                                                                            <field name="VAR" id="9_6V(RF_+@3[yZ7zy1(K" variabletype="">ExpeditingEngineeringStatus</field>
+                                                                            <value name="VALUE">
+                                                                              <block type="get_json_value_from_input_v1" id="9g4:}(!OPdNFF{s;?Yk[">
+                                                                                <field name="NAME">Expediting.EngineeringStatus</field>
+                                                                                <value name="NAME">
+                                                                                  <block type="variables_get" id="j:xRzXP^A^r{v/S}7VWO">
+                                                                                    <field name="VAR" id="0bp/d*m#4M:(aKXl4:S5" variabletype="">json</field>
+                                                                                  </block>
+                                                                                </value>
+                                                                              </block>
+                                                                            </value>
+                                                                            <next>
+                                                                              <block type="variables_set" id="q;ku6^H.~:v21NMq@_Z`">
+                                                                                <field name="VAR" id="J@TT}E?(Cyd^kJ}GARa_" variabletype="">ExpeditingEngineeringStatusReason</field>
+                                                                                <value name="VALUE">
+                                                                                  <block type="get_json_value_from_input_v1" id="]-a{D(B=/,,K5e=|_Vta">
+                                                                                    <field name="NAME">Expediting.EngineeringStatus.Reason</field>
+                                                                                    <value name="NAME">
+                                                                                      <block type="variables_get" id="Gx/:9:TI])+8X{0(aJTQ">
+                                                                                        <field name="VAR" id="0bp/d*m#4M:(aKXl4:S5" variabletype="">json</field>
+                                                                                      </block>
+                                                                                    </value>
+                                                                                  </block>
+                                                                                </value>
+                                                                                <next>
+                                                                                  <block type="variables_set" id="!X[He^%Qt2]4is;so=Mk">
+                                                                                    <field name="VAR" id="hd#)%jYs{ejj.}gBUfy^" variabletype="">ExpeditingDocumentStatus</field>
+                                                                                    <value name="VALUE">
+                                                                                      <block type="get_json_value_from_input_v1" id="@spDd86Syd]bf4ms#tZu">
+                                                                                        <field name="NAME">Expediting.DocumentStatus</field>
+                                                                                        <value name="NAME">
+                                                                                          <block type="variables_get" id="::Y,!TzNn~bF_cpxr0k[">
+                                                                                            <field name="VAR" id="0bp/d*m#4M:(aKXl4:S5" variabletype="">json</field>
+                                                                                          </block>
+                                                                                        </value>
+                                                                                      </block>
+                                                                                    </value>
+                                                                                    <next>
+                                                                                      <block type="variables_set" id="cE1^ij:a^QdzT+U7^#n?">
+                                                                                        <field name="VAR" id="Sp5YDYo*x{UPcLqMVg.Y" variabletype="">ExpeditingDocumentStatusReason</field>
+                                                                                        <value name="VALUE">
+                                                                                          <block type="get_json_value_from_input_v1" id="-rtypONsKGB#o%f0oAi]">
+                                                                                            <field name="NAME">Expediting.DocumentStatus.Reason</field>
+                                                                                            <value name="NAME">
+                                                                                              <block type="variables_get" id="~ZMP#0KYFR^G+%*OEGD/">
+                                                                                                <field name="VAR" id="0bp/d*m#4M:(aKXl4:S5" variabletype="">json</field>
+                                                                                              </block>
+                                                                                            </value>
+                                                                                          </block>
+                                                                                        </value>
+                                                                                        <next>
+                                                                                          <block type="variables_set" id="mibvJO7c#Nbkv8c)Z)v:">
+                                                                                            <field name="VAR" id="Oehc,pp(yFgR%`*Jf8Rd" variabletype="">ExpeditingMaterialsReceived</field>
+                                                                                            <value name="VALUE">
+                                                                                              <block type="get_json_value_from_input_v1" id="S_@MB_O+S]0m2OeutZ0=">
+                                                                                                <field name="NAME">Expediting.MaterialsReceivedStatus</field>
+                                                                                                <value name="NAME">
+                                                                                                  <block type="variables_get" id="50_gv1QSYb3v1Unnrc.P">
+                                                                                                    <field name="VAR" id="0bp/d*m#4M:(aKXl4:S5" variabletype="">json</field>
+                                                                                                  </block>
+                                                                                                </value>
+                                                                                              </block>
+                                                                                            </value>
+                                                                                            <next>
+                                                                                              <block type="variables_set" id="]NVap|etJI,+kQtz*c/l">
+                                                                                                <field name="VAR" id="qdc8yrN+}B3+$TzzuqI_" variabletype="">ExpeditingMaterialsReceivedReason</field>
+                                                                                                <value name="VALUE">
+                                                                                                  <block type="get_json_value_from_input_v1" id="Y%eU|dXZRnx!P%;Q!?xx">
+                                                                                                    <field name="NAME">Expediting.MaterialsReceivedStatus.Reason</field>
+                                                                                                    <value name="NAME">
+                                                                                                      <block type="variables_get" id="gTVewQ8vQO$rxyQDc~q5">
+                                                                                                        <field name="VAR" id="0bp/d*m#4M:(aKXl4:S5" variabletype="">json</field>
+                                                                                                      </block>
+                                                                                                    </value>
+                                                                                                  </block>
+                                                                                                </value>
+                                                                                                <next>
+                                                                                                  <block type="variables_set" id="p]UPuZR}#`95soFdT1Z2">
+                                                                                                    <field name="VAR" id="#jLnYK#0_N=6ggB]4wgC" variabletype="">ExpeditingTestingStatus</field>
+                                                                                                    <value name="VALUE">
+                                                                                                      <block type="get_json_value_from_input_v1" id="x7PuUut*dO86#Eb80u5=">
+                                                                                                        <field name="NAME">Expediting.TestingStatus</field>
+                                                                                                        <value name="NAME">
+                                                                                                          <block type="variables_get" id="t0)9#t*U{[!kM[l^T=OF">
+                                                                                                            <field name="VAR" id="0bp/d*m#4M:(aKXl4:S5" variabletype="">json</field>
+                                                                                                          </block>
+                                                                                                        </value>
+                                                                                                      </block>
+                                                                                                    </value>
+                                                                                                    <next>
+                                                                                                      <block type="variables_set" id="Y`R{{d#~TMHYu]UV87mC">
+                                                                                                        <field name="VAR" id="^)_/,DX6)iK.NQi.PAg{" variabletype="">ExpeditingTestingStatusReason</field>
+                                                                                                        <value name="VALUE">
+                                                                                                          <block type="get_json_value_from_input_v1" id="0/%egWt}8uU%zQZHEJAI">
+                                                                                                            <field name="NAME">Expediting.TestingStatus.Reason</field>
+                                                                                                            <value name="NAME">
+                                                                                                              <block type="variables_get" id="kj=2mc.*I!`]Kp?Z#}0a">
+                                                                                                                <field name="VAR" id="0bp/d*m#4M:(aKXl4:S5" variabletype="">json</field>
+                                                                                                              </block>
+                                                                                                            </value>
+                                                                                                          </block>
+                                                                                                        </value>
+                                                                                                        <next>
+                                                                                                          <block type="variables_set" id="W`hM+]@p*6]44m3Kt+2g">
+                                                                                                            <field name="VAR" id="kp[46u(NJyb!=pyUk),$" variabletype="">ExpeditingCoatingStatus</field>
+                                                                                                            <value name="VALUE">
+                                                                                                              <block type="get_json_value_from_input_v1" id="elVT?}A2Imb6-{.W?EP?">
+                                                                                                                <field name="NAME">Expediting.CoatingStatus</field>
+                                                                                                                <value name="NAME">
+                                                                                                                  <block type="variables_get" id="`#1w6N#)7trn`~oS6bun">
+                                                                                                                    <field name="VAR" id="0bp/d*m#4M:(aKXl4:S5" variabletype="">json</field>
+                                                                                                                  </block>
+                                                                                                                </value>
+                                                                                                              </block>
+                                                                                                            </value>
+                                                                                                            <next>
+                                                                                                              <block type="variables_set" id="FXwKxcA/X~%oWHD#ci+[">
+                                                                                                                <field name="VAR" id="!=64*u*V8~j)q_x2GD/*" variabletype="">ExpeditingCoatingStatusReason</field>
+                                                                                                                <value name="VALUE">
+                                                                                                                  <block type="get_json_value_from_input_v1" id="KCSZLgm}0BOEFb1^8:6z">
+                                                                                                                    <field name="NAME">Expediting.CoatingStatus.Reason</field>
+                                                                                                                    <value name="NAME">
+                                                                                                                      <block type="variables_get" id="EL(dztHx1pHH0F[jwNOc">
+                                                                                                                        <field name="VAR" id="0bp/d*m#4M:(aKXl4:S5" variabletype="">json</field>
+                                                                                                                      </block>
+                                                                                                                    </value>
+                                                                                                                  </block>
+                                                                                                                </value>
+                                                                                                                <next>
+                                                                                                                  <block type="variables_set" id="Tdy[dpl@ZRY;dMeEtBii">
+                                                                                                                    <field name="VAR" id="_z]~`EJUt1l-TOreTb#V" variabletype="">ExpeditingPackingStatus</field>
+                                                                                                                    <value name="VALUE">
+                                                                                                                      <block type="get_json_value_from_input_v1" id="+A%{WthE+HI:`/O#9a%o">
+                                                                                                                        <field name="NAME">Expediting.PackingStatus</field>
+                                                                                                                        <value name="NAME">
+                                                                                                                          <block type="variables_get" id="XFm8`DQ45i$KF5_hwy^H">
+                                                                                                                            <field name="VAR" id="0bp/d*m#4M:(aKXl4:S5" variabletype="">json</field>
+                                                                                                                          </block>
+                                                                                                                        </value>
+                                                                                                                      </block>
+                                                                                                                    </value>
+                                                                                                                    <next>
+                                                                                                                      <block type="variables_set" id="K)U4Cn0mUmpa7:x.zYvh">
+                                                                                                                        <field name="VAR" id="g/+L$l8aDTHCL!e9+BC%" variabletype="">ExpeditingPackingStatusReason</field>
+                                                                                                                        <value name="VALUE">
+                                                                                                                          <block type="get_json_value_from_input_v1" id="Wozuo[kO5Fhnm4-JI$/Y">
+                                                                                                                            <field name="NAME">Expediting.PackingStatus.Reason</field>
+                                                                                                                            <value name="NAME">
+                                                                                                                              <block type="variables_get" id="H6T)ZgblpcTi@o!p_kN|">
+                                                                                                                                <field name="VAR" id="0bp/d*m#4M:(aKXl4:S5" variabletype="">json</field>
+                                                                                                                              </block>
+                                                                                                                            </value>
+                                                                                                                          </block>
+                                                                                                                        </value>
+                                                                                                                        <next>
+                                                                                                                          <block type="variables_set" id="|kn`I-ulWaqi~ajoo*S:">
+                                                                                                                            <field name="VAR" id="VbH|3*FyTQ9N{d-P$M)m" variabletype="">ExpeditingOtherStatus</field>
+                                                                                                                            <value name="VALUE">
+                                                                                                                              <block type="get_json_value_from_input_v1" id=",m}TQob6G0]Qs3F?yRX6">
+                                                                                                                                <field name="NAME">Expediting.OtherStatus</field>
+                                                                                                                                <value name="NAME">
+                                                                                                                                  <block type="variables_get" id="tg/_]v$IPEulVP2wDA[X">
+                                                                                                                                    <field name="VAR" id="0bp/d*m#4M:(aKXl4:S5" variabletype="">json</field>
+                                                                                                                                  </block>
+                                                                                                                                </value>
+                                                                                                                              </block>
+                                                                                                                            </value>
+                                                                                                                            <next>
+                                                                                                                              <block type="variables_set" id="IVrUq{*;sTRYK`mz+,G9">
+                                                                                                                                <field name="VAR" id="Fy,#G$c!t,bRbawUvc4-" variabletype="">ExpeditingOtherStatusReason</field>
+                                                                                                                                <value name="VALUE">
+                                                                                                                                  <block type="get_json_value_from_input_v1" id="V~X[Ah/EwL+W,xrAk3ty">
+                                                                                                                                    <field name="NAME">Expediting.OtherStatus.Reason</field>
+                                                                                                                                    <value name="NAME">
+                                                                                                                                      <block type="variables_get" id="x}7D#bd;eyQRdj!1},LO">
+                                                                                                                                        <field name="VAR" id="0bp/d*m#4M:(aKXl4:S5" variabletype="">json</field>
+                                                                                                                                      </block>
+                                                                                                                                    </value>
+                                                                                                                                  </block>
+                                                                                                                                </value>
+                                                                                                                                <next>
+                                                                                                                                  <block type="variables_set" id="F*!k~3;gr2YV9j6!Udsd">
+                                                                                                                                    <field name="VAR" id="7w/J!PREo{pdREq^$xEF" variabletype="">SupplierName</field>
+                                                                                                                                    <value name="VALUE">
+                                                                                                                                      <block type="get_json_value_from_input_v1" id="K^6PLLsIyr1;o8~{G5vg">
+                                                                                                                                        <field name="NAME">Supplier.Location.SiteName</field>
+                                                                                                                                        <value name="NAME">
+                                                                                                                                          <block type="variables_get" id="L|Z9*%N24kZsm`;]]R(5">
+                                                                                                                                            <field name="VAR" id="0bp/d*m#4M:(aKXl4:S5" variabletype="">json</field>
+                                                                                                                                          </block>
+                                                                                                                                        </value>
+                                                                                                                                      </block>
+                                                                                                                                    </value>
+                                                                                                                                    <next>
+                                                                                                                                      <block type="variables_set" id=";n%Ib*m|x*w*^V54}9+A">
+                                                                                                                                        <field name="VAR" id="[?iIE,mkHZ7:GZhn={-!" variabletype="">SubSupplierName</field>
+                                                                                                                                        <value name="VALUE">
+                                                                                                                                          <block type="get_json_value_from_input_v1" id="wC~Ak(A@%G0O;LE*emW2">
+                                                                                                                                            <field name="NAME">SubSupplier.Location.SiteName</field>
+                                                                                                                                            <value name="NAME">
+                                                                                                                                              <block type="variables_get" id="YDSBLh9,@^R%@xw#_!U.">
+                                                                                                                                                <field name="VAR" id="0bp/d*m#4M:(aKXl4:S5" variabletype="">json</field>
+                                                                                                                                              </block>
+                                                                                                                                            </value>
+                                                                                                                                          </block>
+                                                                                                                                        </value>
+                                                                                                                                        <next>
+                                                                                                                                          <block type="variables_set" id="i8/3LNrpS14/o|MVZB$=">
+                                                                                                                                            <field name="VAR" id="Kp_US![qmIf$f7q`hm?[" variabletype="">OperatingProjectCoordinator</field>
+                                                                                                                                            <value name="VALUE">
+                                                                                                                                              <block type="get_json_value_from_input_v1" id="]mygcXnI4gn($;huu41a">
+                                                                                                                                                <field name="NAME">Intertek.Contract.Project.Coordinator</field>
+                                                                                                                                                <value name="NAME">
+                                                                                                                                                  <block type="variables_get" id="aXaaq)@MsTV}Md+=7+e_">
+                                                                                                                                                    <field name="VAR" id="0bp/d*m#4M:(aKXl4:S5" variabletype="">json</field>
+                                                                                                                                                  </block>
+                                                                                                                                                </value>
+                                                                                                                                              </block>
+                                                                                                                                            </value>
+                                                                                                                                            <next>
+                                                                                                                                              <block type="variables_set" id="5b(l^uzU_Yx4?X4l;V6.">
+                                                                                                                                                <field name="VAR" id="}F,vU#oFv9cnLPz=Vt=[" variabletype="">ExpeditingOrderedQty</field>
+                                                                                                                                                <value name="VALUE">
+                                                                                                                                                  <block type="get_json_value_from_input_v1" id="Oao:T}RFRoPK10$^XjuN">
+                                                                                                                                                    <field name="NAME">Ordered.Quantity</field>
+                                                                                                                                                    <value name="NAME">
+                                                                                                                                                      <block type="variables_get" id="7zylIc/WE81GJ=o_ddl$">
+                                                                                                                                                        <field name="VAR" id="0bp/d*m#4M:(aKXl4:S5" variabletype="">json</field>
+                                                                                                                                                      </block>
+                                                                                                                                                    </value>
+                                                                                                                                                  </block>
+                                                                                                                                                </value>
+                                                                                                                                                <next>
+                                                                                                                                                  <block type="variables_set" id="L*RrNiF2QI2}k4jA!T|Z">
+                                                                                                                                                    <field name="VAR" id="B.K0__gHp;Yo(.bflwK:" variabletype="">ExpeditingPresentedQty</field>
+                                                                                                                                                    <value name="VALUE">
+                                                                                                                                                      <block type="get_json_value_from_input_v1" id="SOuM+bvGY)tDwr2;.#8`">
+                                                                                                                                                        <field name="NAME">Presented</field>
+                                                                                                                                                        <value name="NAME">
+                                                                                                                                                          <block type="variables_get" id="mzBPJ}Iu99vHA|(Y-lD^">
+                                                                                                                                                            <field name="VAR" id="0bp/d*m#4M:(aKXl4:S5" variabletype="">json</field>
+                                                                                                                                                          </block>
+                                                                                                                                                        </value>
+                                                                                                                                                      </block>
+                                                                                                                                                    </value>
+                                                                                                                                                    <next>
+                                                                                                                                                      <block type="variables_set" id="I;W/ArsM.@z||OmX*]!f">
+                                                                                                                                                        <field name="VAR" id="B@Y(HZL[eWeZObf529O$" variabletype="">ExpeditingVisitAcceptedQty</field>
+                                                                                                                                                        <value name="VALUE">
+                                                                                                                                                          <block type="get_json_value_from_input_v1" id="cf48x%XvMNoqi{H:irwM">
+                                                                                                                                                            <field name="NAME">Accepted.ThisVisit</field>
+                                                                                                                                                            <value name="NAME">
+                                                                                                                                                              <block type="variables_get" id="+IIm|vt*$;H*.~E6(+zh">
+                                                                                                                                                                <field name="VAR" id="0bp/d*m#4M:(aKXl4:S5" variabletype="">json</field>
+                                                                                                                                                              </block>
+                                                                                                                                                            </value>
+                                                                                                                                                          </block>
+                                                                                                                                                        </value>
+                                                                                                                                                        <next>
+                                                                                                                                                          <block type="variables_set" id="7)R}G,7tW-jF!L,QT.fP">
+                                                                                                                                                            <field name="VAR" id="%X~)n8Y6YA%4`5NE$L`!" variabletype="">ExpeditingAcceptedtoDateQty</field>
+                                                                                                                                                            <value name="VALUE">
+                                                                                                                                                              <block type="get_json_value_from_input_v1" id="s($B|@n%:+?o+m3]iB@a">
+                                                                                                                                                                <field name="NAME">Accepted.ToDate</field>
+                                                                                                                                                                <value name="NAME">
+                                                                                                                                                                  <block type="variables_get" id="@/;zw-p/dN+@;$1*qA3d">
+                                                                                                                                                                    <field name="VAR" id="0bp/d*m#4M:(aKXl4:S5" variabletype="">json</field>
+                                                                                                                                                                  </block>
+                                                                                                                                                                </value>
+                                                                                                                                                              </block>
+                                                                                                                                                            </value>
+                                                                                                                                                          </block>
+                                                                                                                                                        </next>
+                                                                                                                                                      </block>
+                                                                                                                                                    </next>
+                                                                                                                                                  </block>
+                                                                                                                                                </next>
+                                                                                                                                              </block>
+                                                                                                                                            </next>
+                                                                                                                                          </block>
+                                                                                                                                        </next>
+                                                                                                                                      </block>
+                                                                                                                                    </next>
+                                                                                                                                  </block>
+                                                                                                                                </next>
+                                                                                                                              </block>
+                                                                                                                            </next>
+                                                                                                                          </block>
+                                                                                                                        </next>
+                                                                                                                      </block>
+                                                                                                                    </next>
+                                                                                                                  </block>
+                                                                                                                </next>
+                                                                                                              </block>
+                                                                                                            </next>
+                                                                                                          </block>
+                                                                                                        </next>
+                                                                                                      </block>
+                                                                                                    </next>
+                                                                                                  </block>
+                                                                                                </next>
+                                                                                              </block>
+                                                                                            </next>
+                                                                                          </block>
+                                                                                        </next>
+                                                                                      </block>
+                                                                                    </next>
+                                                                                  </block>
+                                                                                </next>
+                                                                              </block>
+                                                                            </next>
+                                                                          </block>
+                                                                        </next>
+                                                                      </block>
+                                                                    </next>
+                                                                  </block>
+                                                                </next>
+                                                              </block>
+                                                            </next>
+                                                          </block>
+                                                        </next>
+                                                      </block>
+                                                    </next>
+                                                  </block>
+                                                </next>
+                                              </block>
+                                            </next>
+                                          </block>
+                                        </next>
+                                      </block>
+                                    </next>
+                                  </block>
+                                </next>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </statement>
+                <next>
+                  <block type="ui_comment_block_2" id="(#lPtG4W)T51)wRZQA`b">
+                    <field name="COMMENT_BLOCK">Creation of Expediting DB Table</field>
+                    <statement name="ELEMENTS">
+                      <block type="bi_table_def_v1" id="1YXWr?o/(@uupv_GL~-o">
+                        <field name="TABLE_NAME">Expediting</field>
+                        <value name="PRIMARY_KEY">
+                          <block type="bi_primary_key_guid_v1" id="{)1=y9#UFHgGU#J{^A6V">
+                            <field name="KEY_NAME">GUID</field>
+                            <value name="NAME">
+                              <block type="variables_get" id="JT:I?{J/|%}:F;Xxv#vo">
+                                <field name="VAR" id="].;6r9q.pgxiltKA@hnN" variabletype="">GUID</field>
+                              </block>
+                            </value>
+                          </block>
+                        </value>
+                        <statement name="DATA_C_BLOCK">
+                          <block type="bi_date_type_v1" id="Vh..:19CEcwU4u.LVdrm">
+                            <field name="KEY_NAME">ExpeditingDate</field>
+                            <value name="NAME">
+                              <block type="variables_get" id="`aK?m[ps{ISJNU8`R)%%">
+                                <field name="VAR" id="(Ad96t{.1ccAKAU$a4f~" variabletype="">ExpeditingDate</field>
+                              </block>
+                            </value>
+                            <next>
+                              <block type="bi_char_type_v1" id="17r@z-a(0!ViYz):f$zc">
+                                <field name="KEY_NAME">TSName</field>
+                                <field name="LENGTH">100</field>
+                                <value name="NAME">
+                                  <block type="variables_get" id="pl7d.??Ox985Wudeifj~">
+                                    <field name="VAR" id="JZ2vtVwkF;j``$z$P74{" variabletype="">TSName</field>
+                                  </block>
+                                </value>
+                                <next>
+                                  <block type="bi_integer_type_v1" id="A1Y(K:i+,@^;t6`x)Jv)">
+                                    <field name="KEY_NAME">TSPin</field>
+                                    <value name="NAME">
+                                      <block type="variables_get" id="2anUuYT?|z]iiHMZWP(*">
+                                        <field name="VAR" id="up%yM/2G@LO-62;-+.VA" variabletype="">TSPin</field>
+                                      </block>
+                                    </value>
+                                    <next>
+                                      <block type="bi_char_type_v1" id="/Wds9a/]Fi@(m.U7vYO/">
+                                        <field name="KEY_NAME">TSEntity</field>
+                                        <field name="LENGTH">100</field>
+                                        <value name="NAME">
+                                          <block type="variables_get" id="c!V/[f%1c)LjHSuo71]3">
+                                            <field name="VAR" id="b*Ljoq?Y_(h_P9{@b5P6" variabletype="">TSEntity</field>
+                                          </block>
+                                        </value>
+                                        <next>
+                                          <block type="bi_char_type_v1" id="2D.oUNWnaXz4qkN@hGUo">
+                                            <field name="KEY_NAME">OperatingProjectCoodinator</field>
+                                            <field name="LENGTH">100</field>
+                                            <value name="NAME">
+                                              <block type="variables_get" id="KV^3.Mudzq9t0}=0)k-,">
+                                                <field name="VAR" id="Kp_US![qmIf$f7q`hm?[" variabletype="">OperatingProjectCoordinator</field>
+                                              </block>
+                                            </value>
+                                            <next>
+                                              <block type="bi_char_type_v1" id="`^M*AK(kOcEB_i|;|odo">
+                                                <field name="KEY_NAME">ExpeditingPerformed</field>
+                                                <field name="LENGTH">100</field>
+                                                <value name="NAME">
+                                                  <block type="variables_get" id="{Jcaf6BoCDzA-izE~D`M">
+                                                    <field name="VAR" id="aDPSoa;=i2(H2FQ31=YS" variabletype="">ExpeditingPerformed</field>
+                                                  </block>
+                                                </value>
+                                                <next>
+                                                  <block type="bi_char_type_v1" id="uDF{9O,U$br:TvG4K*M3">
+                                                    <field name="KEY_NAME">MaterialsInspected</field>
+                                                    <field name="LENGTH">100</field>
+                                                    <value name="NAME">
+                                                      <block type="variables_get" id="7a=suz3S/U8m.(kLLnb{">
+                                                        <field name="VAR" id=".p!r(2LZZBDQn%IrVd!r" variabletype="">MaterialsInspected</field>
+                                                      </block>
+                                                    </value>
+                                                    <next>
+                                                      <block type="bi_char_type_v1" id="Y0dZkp4=m/b[Glwh.8im">
+                                                        <field name="KEY_NAME">CustomerName</field>
+                                                        <field name="LENGTH">100</field>
+                                                        <value name="NAME">
+                                                          <block type="variables_get" id="6nVnS}j^55}oV*N2ocmW">
+                                                            <field name="VAR" id="[W8N,cBaU3^GJ4SCU[-Z" variabletype="">CustomerName</field>
+                                                          </block>
+                                                        </value>
+                                                        <next>
+                                                          <block type="bi_char_type_v1" id="2`VXNx?);+m8Zm4piqJT">
+                                                            <field name="KEY_NAME">EVONumber</field>
+                                                            <field name="LENGTH">100</field>
+                                                            <value name="NAME">
+                                                              <block type="variables_get" id="dW|v*^p:J${uQnps0xzO">
+                                                                <field name="VAR" id="8G]ltaFOTI!!hyx+ct[r" variabletype="">EVONumber</field>
+                                                              </block>
+                                                            </value>
+                                                            <next>
+                                                              <block type="bi_char_type_v1" id=")77~nt#|Nnyd.Qkt,:x5">
+                                                                <field name="KEY_NAME">IntertekProjectNumber</field>
+                                                                <field name="LENGTH">100</field>
+                                                                <value name="NAME">
+                                                                  <block type="variables_get" id="?v~^/IrhLq~Tx.4.[rF1">
+                                                                    <field name="VAR" id="Pv.TNwW=QtXR;b6:[XJ/" variabletype="">IntertekProjectNumber</field>
+                                                                  </block>
+                                                                </value>
+                                                                <next>
+                                                                  <block type="bi_char_type_v1" id="%T*[G.N`f2Z1L@DEYH+w">
+                                                                    <field name="KEY_NAME">ExpeditingDeliveryStatus</field>
+                                                                    <field name="LENGTH">100</field>
+                                                                    <value name="NAME">
+                                                                      <block type="variables_get" id="XJ7djdsKE!3v%C66MD?d">
+                                                                        <field name="VAR" id=",1p|Tq59=(]@9kos/vlG" variabletype="">ExpeditingDeliveryStatus</field>
+                                                                      </block>
+                                                                    </value>
+                                                                    <next>
+                                                                      <block type="bi_char_type_v1" id="Bu/7BiG-,%zjemQ+HB5t">
+                                                                        <field name="KEY_NAME">ExpeditingDeliveryStatusReason</field>
+                                                                        <field name="LENGTH">100</field>
+                                                                        <value name="NAME">
+                                                                          <block type="variables_get" id="5F]}Peit;j:YjzzMpq/2">
+                                                                            <field name="VAR" id="BG]H/y9]S@B5^4O7c,jY" variabletype="">ExpeditingDeliveryStatusReason</field>
+                                                                          </block>
+                                                                        </value>
+                                                                        <next>
+                                                                          <block type="bi_char_type_v1" id="2zUA!{klG,X9MZ;@etcb">
+                                                                            <field name="KEY_NAME">ExpeditingShippingStatus</field>
+                                                                            <field name="LENGTH">100</field>
+                                                                            <value name="NAME">
+                                                                              <block type="variables_get" id="5R,x@r63xu*YXHuAac1J">
+                                                                                <field name="VAR" id="s{+9N6ML_@#U4Aw4?`Xy" variabletype="">ExpeditingShippingStatus</field>
+                                                                              </block>
+                                                                            </value>
+                                                                            <next>
+                                                                              <block type="bi_char_type_v1" id="Vh{(9WNDz@Bj9%2~uAK(">
+                                                                                <field name="KEY_NAME">ExpeditingShippingStatusReason</field>
+                                                                                <field name="LENGTH">100</field>
+                                                                                <value name="NAME">
+                                                                                  <block type="variables_get" id="3mOKCe$dNc}{~TpX%K:Y">
+                                                                                    <field name="VAR" id="P:FdhUv?fKL0fIV5dj]I" variabletype="">ExpeditingShippingStatusReason</field>
+                                                                                  </block>
+                                                                                </value>
+                                                                                <next>
+                                                                                  <block type="bi_char_type_v1" id="yi%kN*WN5}[5@OUtEC%E">
+                                                                                    <field name="KEY_NAME">ExpeditingEngineeringStatus</field>
+                                                                                    <field name="LENGTH">100</field>
+                                                                                    <value name="NAME">
+                                                                                      <block type="variables_get" id="7H,$:g^}gOOEq]J2aV?M">
+                                                                                        <field name="VAR" id="9_6V(RF_+@3[yZ7zy1(K" variabletype="">ExpeditingEngineeringStatus</field>
+                                                                                      </block>
+                                                                                    </value>
+                                                                                    <next>
+                                                                                      <block type="bi_char_type_v1" id="_c|GN[?3g[lo)4+}v`)f">
+                                                                                        <field name="KEY_NAME">ExpeditingEngineeringStatusReason</field>
+                                                                                        <field name="LENGTH">100</field>
+                                                                                        <value name="NAME">
+                                                                                          <block type="variables_get" id="zpo:|f=Q((B8(E@5I,/T">
+                                                                                            <field name="VAR" id="J@TT}E?(Cyd^kJ}GARa_" variabletype="">ExpeditingEngineeringStatusReason</field>
+                                                                                          </block>
+                                                                                        </value>
+                                                                                        <next>
+                                                                                          <block type="bi_char_type_v1" id="QI%{_YyLHb0,=vq{V16L">
+                                                                                            <field name="KEY_NAME">ExpeditingDocumentStatus</field>
+                                                                                            <field name="LENGTH">100</field>
+                                                                                            <value name="NAME">
+                                                                                              <block type="variables_get" id="GW:?Ie9M/[Q+MRII!huN">
+                                                                                                <field name="VAR" id="hd#)%jYs{ejj.}gBUfy^" variabletype="">ExpeditingDocumentStatus</field>
+                                                                                              </block>
+                                                                                            </value>
+                                                                                            <next>
+                                                                                              <block type="bi_char_type_v1" id="Lq]l6s|GlKLR$+G`3k+N">
+                                                                                                <field name="KEY_NAME">ExpeditingDocumentStatusReason</field>
+                                                                                                <field name="LENGTH">100</field>
+                                                                                                <value name="NAME">
+                                                                                                  <block type="variables_get" id="rt+yhkIDCYw!=!EO/DRc">
+                                                                                                    <field name="VAR" id="Sp5YDYo*x{UPcLqMVg.Y" variabletype="">ExpeditingDocumentStatusReason</field>
+                                                                                                  </block>
+                                                                                                </value>
+                                                                                                <next>
+                                                                                                  <block type="bi_char_type_v1" id="8!~o^3k2E{.yp97dI(jE">
+                                                                                                    <field name="KEY_NAME">ExpeditingMaterialsReceived</field>
+                                                                                                    <field name="LENGTH">100</field>
+                                                                                                    <value name="NAME">
+                                                                                                      <block type="variables_get" id="#i/Xq{HVctiQMfdI`AxQ">
+                                                                                                        <field name="VAR" id="Oehc,pp(yFgR%`*Jf8Rd" variabletype="">ExpeditingMaterialsReceived</field>
+                                                                                                      </block>
+                                                                                                    </value>
+                                                                                                    <next>
+                                                                                                      <block type="bi_char_type_v1" id="~CW9.*J@r:bA5[G5//Fo">
+                                                                                                        <field name="KEY_NAME">ExpeditingMaterialsReceivedReason</field>
+                                                                                                        <field name="LENGTH">100</field>
+                                                                                                        <value name="NAME">
+                                                                                                          <block type="variables_get" id="$f*%abhpC5%Lv*KY_o=}">
+                                                                                                            <field name="VAR" id="qdc8yrN+}B3+$TzzuqI_" variabletype="">ExpeditingMaterialsReceivedReason</field>
+                                                                                                          </block>
+                                                                                                        </value>
+                                                                                                        <next>
+                                                                                                          <block type="bi_char_type_v1" id="T8YRbOukZ#@@S?$LMK]:">
+                                                                                                            <field name="KEY_NAME">ExpeditingTestingStatus</field>
+                                                                                                            <field name="LENGTH">100</field>
+                                                                                                            <value name="NAME">
+                                                                                                              <block type="variables_get" id="OCA*azrqzr%1te;fq)jN">
+                                                                                                                <field name="VAR" id="#jLnYK#0_N=6ggB]4wgC" variabletype="">ExpeditingTestingStatus</field>
+                                                                                                              </block>
+                                                                                                            </value>
+                                                                                                            <next>
+                                                                                                              <block type="bi_char_type_v1" id="k2_#KVgQ2E0Ek]/i*uc6">
+                                                                                                                <field name="KEY_NAME">ExpeditingTestingStatusReason</field>
+                                                                                                                <field name="LENGTH">100</field>
+                                                                                                                <value name="NAME">
+                                                                                                                  <block type="variables_get" id="}diwMIZxDAe6Kw=X7+{*">
+                                                                                                                    <field name="VAR" id="^)_/,DX6)iK.NQi.PAg{" variabletype="">ExpeditingTestingStatusReason</field>
+                                                                                                                  </block>
+                                                                                                                </value>
+                                                                                                                <next>
+                                                                                                                  <block type="bi_char_type_v1" id="y[wQ=]7gcikH_e!)Q}}%">
+                                                                                                                    <field name="KEY_NAME">ExpeditingCoatingStatus</field>
+                                                                                                                    <field name="LENGTH">100</field>
+                                                                                                                    <value name="NAME">
+                                                                                                                      <block type="variables_get" id="xsqx3Q?1/A21dLgI@Ty~">
+                                                                                                                        <field name="VAR" id="kp[46u(NJyb!=pyUk),$" variabletype="">ExpeditingCoatingStatus</field>
+                                                                                                                      </block>
+                                                                                                                    </value>
+                                                                                                                    <next>
+                                                                                                                      <block type="bi_char_type_v1" id="EZ}/)KMknDCI[el:g?u*">
+                                                                                                                        <field name="KEY_NAME">ExpeditingCoatingStatusReason</field>
+                                                                                                                        <field name="LENGTH">100</field>
+                                                                                                                        <value name="NAME">
+                                                                                                                          <block type="variables_get" id="4vgraGBkdAmOo5HdXRHh">
+                                                                                                                            <field name="VAR" id="!=64*u*V8~j)q_x2GD/*" variabletype="">ExpeditingCoatingStatusReason</field>
+                                                                                                                          </block>
+                                                                                                                        </value>
+                                                                                                                        <next>
+                                                                                                                          <block type="bi_char_type_v1" id="yR9h+|oAKo3]bV)!z:Hu">
+                                                                                                                            <field name="KEY_NAME">ExpeditingPackingStatus</field>
+                                                                                                                            <field name="LENGTH">100</field>
+                                                                                                                            <value name="NAME">
+                                                                                                                              <block type="variables_get" id="*XSA^8r2joi%tZQz]R@$">
+                                                                                                                                <field name="VAR" id="_z]~`EJUt1l-TOreTb#V" variabletype="">ExpeditingPackingStatus</field>
+                                                                                                                              </block>
+                                                                                                                            </value>
+                                                                                                                            <next>
+                                                                                                                              <block type="bi_char_type_v1" id="(=)qW?]T({QEdh=f4]GU">
+                                                                                                                                <field name="KEY_NAME">ExpeditingPackingStatusReason</field>
+                                                                                                                                <field name="LENGTH">100</field>
+                                                                                                                                <value name="NAME">
+                                                                                                                                  <block type="variables_get" id="_N6{v.|uP3^6cd;JfCK@">
+                                                                                                                                    <field name="VAR" id="g/+L$l8aDTHCL!e9+BC%" variabletype="">ExpeditingPackingStatusReason</field>
+                                                                                                                                  </block>
+                                                                                                                                </value>
+                                                                                                                                <next>
+                                                                                                                                  <block type="bi_char_type_v1" id="!@+-bS^g3aRMs_O_pBu@">
+                                                                                                                                    <field name="KEY_NAME">ExpeditingOtherStatus</field>
+                                                                                                                                    <field name="LENGTH">100</field>
+                                                                                                                                    <value name="NAME">
+                                                                                                                                      <block type="variables_get" id="#70zsV1u69XZ[t3-cAbB">
+                                                                                                                                        <field name="VAR" id="VbH|3*FyTQ9N{d-P$M)m" variabletype="">ExpeditingOtherStatus</field>
+                                                                                                                                      </block>
+                                                                                                                                    </value>
+                                                                                                                                    <next>
+                                                                                                                                      <block type="bi_char_type_v1" id="`o1%KZzIM2[?:Fm19JR6">
+                                                                                                                                        <field name="KEY_NAME">ExpeditingOtherStatusReason</field>
+                                                                                                                                        <field name="LENGTH">100</field>
+                                                                                                                                        <value name="NAME">
+                                                                                                                                          <block type="variables_get" id="NmUT}zD=_tM:@POUew3p">
+                                                                                                                                            <field name="VAR" id="Fy,#G$c!t,bRbawUvc4-" variabletype="">ExpeditingOtherStatusReason</field>
+                                                                                                                                          </block>
+                                                                                                                                        </value>
+                                                                                                                                        <next>
+                                                                                                                                          <block type="bi_char_type_v1" id="1!)S^)~A#ch5}ae^;#HU">
+                                                                                                                                            <field name="KEY_NAME">SupplierName</field>
+                                                                                                                                            <field name="LENGTH">100</field>
+                                                                                                                                            <value name="NAME">
+                                                                                                                                              <block type="variables_get" id="AO0b/^V(+=R[V3c~4JZe">
+                                                                                                                                                <field name="VAR" id="7w/J!PREo{pdREq^$xEF" variabletype="">SupplierName</field>
+                                                                                                                                              </block>
+                                                                                                                                            </value>
+                                                                                                                                            <next>
+                                                                                                                                              <block type="bi_char_type_v1" id="Q-7a@qnl4r82-INfNm*.">
+                                                                                                                                                <field name="KEY_NAME">SubSupplierName</field>
+                                                                                                                                                <field name="LENGTH">100</field>
+                                                                                                                                                <value name="NAME">
+                                                                                                                                                  <block type="variables_get" id="01GK1Ls.4,OSwHE])0M8">
+                                                                                                                                                    <field name="VAR" id="[?iIE,mkHZ7:GZhn={-!" variabletype="">SubSupplierName</field>
+                                                                                                                                                  </block>
+                                                                                                                                                </value>
+                                                                                                                                                <next>
+                                                                                                                                                  <block type="bi_char_type_v1" id="UV6Nk((:5~L)$B-p70qx">
+                                                                                                                                                    <field name="KEY_NAME">OperatingProjectCoordinator</field>
+                                                                                                                                                    <field name="LENGTH">100</field>
+                                                                                                                                                    <value name="NAME">
+                                                                                                                                                      <block type="variables_get" id="T0Sje][EDeW1kdcTqg]4">
+                                                                                                                                                        <field name="VAR" id="Kp_US![qmIf$f7q`hm?[" variabletype="">OperatingProjectCoordinator</field>
+                                                                                                                                                      </block>
+                                                                                                                                                    </value>
+                                                                                                                                                    <next>
+                                                                                                                                                      <block type="bi_char_type_v1" id="(5L_e#v25pF+vz8$tHz|">
+                                                                                                                                                        <field name="KEY_NAME">ExpeditingOrderedQty</field>
+                                                                                                                                                        <field name="LENGTH">100</field>
+                                                                                                                                                        <value name="NAME">
+                                                                                                                                                          <block type="variables_get" id="gTEK.v#hG8k:){gJ/%nl">
+                                                                                                                                                            <field name="VAR" id="}F,vU#oFv9cnLPz=Vt=[" variabletype="">ExpeditingOrderedQty</field>
+                                                                                                                                                          </block>
+                                                                                                                                                        </value>
+                                                                                                                                                        <next>
+                                                                                                                                                          <block type="bi_char_type_v1" id="f-X?,`URa0U5Ky~J|anZ">
+                                                                                                                                                            <field name="KEY_NAME">ExpeditingPresentedQty</field>
+                                                                                                                                                            <field name="LENGTH">100</field>
+                                                                                                                                                            <value name="NAME">
+                                                                                                                                                              <block type="variables_get" id="{~fN2nj(|ku.hEy^y3}|">
+                                                                                                                                                                <field name="VAR" id="B.K0__gHp;Yo(.bflwK:" variabletype="">ExpeditingPresentedQty</field>
+                                                                                                                                                              </block>
+                                                                                                                                                            </value>
+                                                                                                                                                            <next>
+                                                                                                                                                              <block type="bi_char_type_v1" id="p`5n8~wZqdyAhhe3vwK*">
+                                                                                                                                                                <field name="KEY_NAME">ExpeditingVisitAcceptedQty</field>
+                                                                                                                                                                <field name="LENGTH">100</field>
+                                                                                                                                                                <value name="NAME">
+                                                                                                                                                                  <block type="variables_get" id="zwcE:K@2xWLoboAS0jY#">
+                                                                                                                                                                    <field name="VAR" id="B@Y(HZL[eWeZObf529O$" variabletype="">ExpeditingVisitAcceptedQty</field>
+                                                                                                                                                                  </block>
+                                                                                                                                                                </value>
+                                                                                                                                                                <next>
+                                                                                                                                                                  <block type="bi_char_type_v1" id="o-{j*/3Qri/urVH5p0|~">
+                                                                                                                                                                    <field name="KEY_NAME">ExpeditingAcceptedtoDateQty</field>
+                                                                                                                                                                    <field name="LENGTH">100</field>
+                                                                                                                                                                    <value name="NAME">
+                                                                                                                                                                      <block type="variables_get" id="Ma(MCktQ66VkGg,HOB-s">
+                                                                                                                                                                        <field name="VAR" id="%X~)n8Y6YA%4`5NE$L`!" variabletype="">ExpeditingAcceptedtoDateQty</field>
+                                                                                                                                                                      </block>
+                                                                                                                                                                    </value>
+                                                                                                                                                                  </block>
+                                                                                                                                                                </next>
+                                                                                                                                                              </block>
+                                                                                                                                                            </next>
+                                                                                                                                                          </block>
+                                                                                                                                                        </next>
+                                                                                                                                                      </block>
+                                                                                                                                                    </next>
+                                                                                                                                                  </block>
+                                                                                                                                                </next>
+                                                                                                                                              </block>
+                                                                                                                                            </next>
+                                                                                                                                          </block>
+                                                                                                                                        </next>
+                                                                                                                                      </block>
+                                                                                                                                    </next>
+                                                                                                                                  </block>
+                                                                                                                                </next>
+                                                                                                                              </block>
+                                                                                                                            </next>
+                                                                                                                          </block>
+                                                                                                                        </next>
+                                                                                                                      </block>
+                                                                                                                    </next>
+                                                                                                                  </block>
+                                                                                                                </next>
+                                                                                                              </block>
+                                                                                                            </next>
+                                                                                                          </block>
+                                                                                                        </next>
+                                                                                                      </block>
+                                                                                                    </next>
+                                                                                                  </block>
+                                                                                                </next>
+                                                                                              </block>
+                                                                                            </next>
+                                                                                          </block>
+                                                                                        </next>
+                                                                                      </block>
+                                                                                    </next>
+                                                                                  </block>
+                                                                                </next>
+                                                                              </block>
+                                                                            </next>
+                                                                          </block>
+                                                                        </next>
+                                                                      </block>
+                                                                    </next>
+                                                                  </block>
+                                                                </next>
+                                                              </block>
+                                                            </next>
+                                                          </block>
+                                                        </next>
+                                                      </block>
+                                                    </next>
+                                                  </block>
+                                                </next>
+                                              </block>
+                                            </next>
+                                          </block>
+                                        </next>
+                                      </block>
+                                    </next>
+                                  </block>
+                                </next>
+                              </block>
+                            </next>
+                          </block>
+                        </statement>
+                      </block>
+                    </statement>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+</xml>
